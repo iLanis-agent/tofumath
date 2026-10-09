@@ -1,0 +1,526 @@
+[
+ {
+  "card": "beansToMilk",
+  "args": [
+   100
+  ],
+  "expect": {
+   "soak_ml": 300,
+   "grind_ml": 800,
+   "milk_ml": 600,
+   "verdict": "a tasting batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   300
+  ],
+  "expect": {
+   "soak_ml": 900,
+   "grind_ml": 2400,
+   "milk_ml": 1800,
+   "verdict": "a kitchen batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   250
+  ],
+  "expect": {
+   "soak_ml": 750,
+   "grind_ml": 2000,
+   "milk_ml": 1500,
+   "verdict": "a kitchen batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   1000
+  ],
+  "expect": {
+   "soak_ml": 3000,
+   "grind_ml": 8000,
+   "milk_ml": 6000,
+   "verdict": "a production day"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   50
+  ],
+  "expect": {
+   "soak_ml": 150,
+   "grind_ml": 400,
+   "milk_ml": 300,
+   "verdict": "a tasting batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   2000
+  ],
+  "expect": {
+   "soak_ml": 6000,
+   "grind_ml": 16000,
+   "milk_ml": 12000,
+   "verdict": "a production day"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   450
+  ],
+  "expect": {
+   "soak_ml": 1350,
+   "grind_ml": 3600,
+   "milk_ml": 2700,
+   "verdict": "a kitchen batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   75
+  ],
+  "expect": {
+   "soak_ml": 225,
+   "grind_ml": 600,
+   "milk_ml": 450,
+   "verdict": "a tasting batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   500
+  ],
+  "expect": {
+   "soak_ml": 1500,
+   "grind_ml": 4000,
+   "milk_ml": 3000,
+   "verdict": "a kitchen batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   1500
+  ],
+  "expect": {
+   "soak_ml": 4500,
+   "grind_ml": 12000,
+   "milk_ml": 9000,
+   "verdict": "a production day"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   600
+  ],
+  "expect": {
+   "soak_ml": 1800,
+   "grind_ml": 4800,
+   "milk_ml": 3600,
+   "verdict": "a kitchen batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   900
+  ],
+  "expect": {
+   "soak_ml": 2700,
+   "grind_ml": 7200,
+   "milk_ml": 5400,
+   "verdict": "a kitchen batch"
+  }
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   0
+  ],
+  "error": "positive"
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   -100
+  ],
+  "error": "positive"
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   2.5
+  ],
+  "error": "whole grams"
+ },
+ {
+  "card": "beansToMilk",
+  "args": [
+   150000
+  ],
+  "error": "under 100 kg"
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   1000,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 8.0,
+   "unit": "ml",
+   "verdict": "tiny - measure carefully"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   1800,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 14.4,
+   "unit": "ml",
+   "verdict": "modest"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   500,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 4.0,
+   "unit": "ml",
+   "verdict": "tiny - measure carefully"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   3000,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 24.0,
+   "unit": "ml",
+   "verdict": "modest"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   6000,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 48.0,
+   "unit": "ml",
+   "verdict": "bulk"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   250,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 2.0,
+   "unit": "ml",
+   "verdict": "tiny - measure carefully"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   1000,
+   "gypsum"
+  ],
+  "expect": {
+   "amount": 2.5,
+   "unit": "g",
+   "verdict": "tiny - measure carefully"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   1800,
+   "gypsum"
+  ],
+  "expect": {
+   "amount": 4.5,
+   "unit": "g",
+   "verdict": "tiny - measure carefully"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   6000,
+   "gypsum"
+  ],
+  "expect": {
+   "amount": 15.0,
+   "unit": "g",
+   "verdict": "modest"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   12000,
+   "gypsum"
+  ],
+  "expect": {
+   "amount": 30.0,
+   "unit": "g",
+   "verdict": "bulk"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   400,
+   "gypsum"
+  ],
+  "expect": {
+   "amount": 1.0,
+   "unit": "g",
+   "verdict": "tiny - measure carefully"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   8000,
+   "nigari"
+  ],
+  "expect": {
+   "amount": 64.0,
+   "unit": "ml",
+   "verdict": "bulk"
+  }
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   0,
+   "nigari"
+  ],
+  "error": "positive"
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   -5,
+   "gypsum"
+  ],
+  "error": "positive"
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   1000,
+   "brick"
+  ],
+  "error": "nigari or gypsum"
+ },
+ {
+  "card": "coagulant",
+  "args": [
+   1000,
+   ""
+  ],
+  "error": "nigari or gypsum"
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   1800,
+   "firm"
+  ],
+  "expect": {
+   "grams": 630,
+   "press_min": 30,
+   "verdict": "slice it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   1800,
+   "silken"
+  ],
+  "expect": {
+   "grams": 990,
+   "press_min": 0,
+   "verdict": "spoon it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   1000,
+   "soft"
+  ],
+  "expect": {
+   "grams": 450,
+   "press_min": 15,
+   "verdict": "spoon it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   6000,
+   "extra"
+  ],
+  "expect": {
+   "grams": 1680,
+   "press_min": 45,
+   "verdict": "slice it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   250,
+   "firm"
+  ],
+  "expect": {
+   "grams": 88,
+   "press_min": 30,
+   "verdict": "slice it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   500,
+   "silken"
+  ],
+  "expect": {
+   "grams": 275,
+   "press_min": 0,
+   "verdict": "spoon it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   3000,
+   "soft"
+  ],
+  "expect": {
+   "grams": 1350,
+   "press_min": 15,
+   "verdict": "spoon it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   12000,
+   "firm"
+  ],
+  "expect": {
+   "grams": 4200,
+   "press_min": 30,
+   "verdict": "slice it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   750,
+   "extra"
+  ],
+  "expect": {
+   "grams": 210,
+   "press_min": 45,
+   "verdict": "slice it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   2000,
+   "silken"
+  ],
+  "expect": {
+   "grams": 1100,
+   "press_min": 0,
+   "verdict": "spoon it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   900,
+   "soft"
+  ],
+  "expect": {
+   "grams": 405,
+   "press_min": 15,
+   "verdict": "spoon it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   4500,
+   "extra"
+  ],
+  "expect": {
+   "grams": 1260,
+   "press_min": 45,
+   "verdict": "slice it"
+  }
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   0,
+   "firm"
+  ],
+  "error": "positive"
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   -100,
+   "soft"
+  ],
+  "error": "positive"
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   1000,
+   "brick"
+  ],
+  "error": "silken, soft, firm or extra"
+ },
+ {
+  "card": "tofuYield",
+  "args": [
+   1000,
+   ""
+  ],
+  "error": "silken, soft, firm or extra"
+ }
+]
